@@ -4,6 +4,7 @@ import (
 	"context"
 	"flag"
 	"log"
+	"os"
 
 	"github.com/google/uuid"
 )
@@ -26,6 +27,22 @@ func main() {
 
 	ctx := context.Background()
 	ctx = context.WithValue(ctx, "id", uuid.New().String())
+	ctx, cancel := context.WithCancel(ctx)
+
+	// Wait for signal
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, os.Interrupt)
+	defer func() {
+		signal.Stop(c)
+		cancel()
+	}()
+	go func() {
+		select {
+		case <-c:
+			cancel()
+		case <-ctx.Done():
+		}
+	}()
 
 	err = pipeline.Do(ctx)
 	if nil != err {
