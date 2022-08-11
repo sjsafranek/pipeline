@@ -14,6 +14,10 @@ type HttpRequestTask struct {
 }
 
 func (self *HttpRequestTask) Do(ctx context.Context) error {
+	if nil != ctx.Err() {
+		return ctx.Err()
+	}
+
 	// Create the file
 	out, err := os.Create(self.Params.OutputFile)
 	if err != nil {
@@ -37,5 +41,5 @@ func (self *HttpRequestTask) Do(ctx context.Context) error {
 		return err
 	}
 
-	return nil
+	return ctx.Err()
 }

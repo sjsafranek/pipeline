@@ -9,5 +9,12 @@ type CallbackTask struct {
 }
 
 func (self *CallbackTask) Do(ctx context.Context) error {
-	return self.Callback(ctx)
+	if nil != ctx.Err() {
+		return ctx.Err()
+	}
+	err := self.Callback(ctx)
+	if nil != err {
+		return err
+	}
+	return ctx.Err()
 }

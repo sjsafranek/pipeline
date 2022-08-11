@@ -17,7 +17,7 @@ type CsvWriter struct {
 	//stream *io.Writer
 }
 
-func (self *CsvWriter) WriteLine(row map[string]interface{}) {
+func (self *CsvWriter) WriteLine(row map[string]interface{}) error {
 
 	if nil == self.fh {
 		fh, err := os.Create(self.options.GetFilename())
@@ -34,22 +34,26 @@ func (self *CsvWriter) WriteLine(row map[string]interface{}) {
 		for column_id := range row {
 			self.options.Header = append(self.options.Header, column_id)
 		}
-		self.write(self.options.Header)
+		err := self.write(self.options.Header)
+		if nil != err {
+			return err
+		}
 	}
 
 	values := make([]string, len(self.options.Header))
 	for i, column_id := range self.options.Header {
 		values[i] = fmt.Sprintf("%v", row[column_id])
 	}
-	self.write(values)
+	return self.write(values)
 }
 
-func (self *CsvWriter) write(line []string) {
+func (self *CsvWriter) write(line []string) error {
 	err := self.writer.Write(line)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 	self.writer.Flush()
+	return nil
 }
 
 func (self *CsvWriter) Close() {

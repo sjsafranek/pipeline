@@ -64,6 +64,10 @@ func (self *EtlTask) newWriter() (writers.IWriter, error) {
 }
 
 func (self *EtlTask) Do(ctx context.Context) error {
+	if nil != ctx.Err() {
+		return ctx.Err()
+	}
+
 	reader, err := self.newReader()
 	if nil != err {
 		return err
@@ -77,11 +81,11 @@ func (self *EtlTask) Do(ctx context.Context) error {
 	defer writer.Close()
 
 	for row := range reader.ReadLines() {
-		writer.WriteLine(row)
+		err = writer.WriteLine(row)
 		if nil != err {
 			return err
 		}
 	}
 
-	return nil
+	return ctx.Err()
 }

@@ -5,6 +5,8 @@ import (
 	"flag"
 	"log"
 	"os"
+	"os/signal"
+	"syscall"
 
 	"github.com/google/uuid"
 )
@@ -19,19 +21,22 @@ func init() {
 }
 
 func main() {
+
+	// Get specified pipeline
 	pipeline := Pipeline{}
 	err := pipeline.Load(config_file)
 	if nil != err {
 		log.Fatal(err)
 	}
 
+	// Get context
 	ctx := context.Background()
 	ctx = context.WithValue(ctx, "id", uuid.New().String())
 	ctx, cancel := context.WithCancel(ctx)
 
 	// Wait for signal
 	c := make(chan os.Signal, 1)
-	signal.Notify(c, os.Interrupt)
+	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
 	defer func() {
 		signal.Stop(c)
 		cancel()
@@ -39,11 +44,13 @@ func main() {
 	go func() {
 		select {
 		case <-c:
+			log.Println("Shutdown")
 			cancel()
 		case <-ctx.Done():
 		}
 	}()
 
+	// Kick off pipeline
 	err = pipeline.Do(ctx)
 	if nil != err {
 		log.Fatal(err)

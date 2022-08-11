@@ -7,7 +7,7 @@ import (
 )
 
 type IWriter interface {
-	WriteLine(map[string]interface{})
+	WriteLine(map[string]interface{}) error
 	Close()
 }
 

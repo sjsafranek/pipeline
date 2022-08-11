@@ -2,12 +2,14 @@ package writers
 
 import (
 	"encoding/json"
-	"log"
 	"os"
 	//"io"
 
 	"pipeline/models"
 )
+
+var json_start_prefix = []byte("[\n\t")
+var json_middle_prefix = []byte(",\n\t")
 
 type JsonWriter struct {
 	options *models.Options
@@ -15,33 +17,25 @@ type JsonWriter struct {
 	//stream *io.Writer
 }
 
-func (self *JsonWriter) WriteLine(row map[string]interface{}) {
+func (self *JsonWriter) WriteLine(row map[string]interface{}) error {
+	prefix := json_middle_prefix
 
-	first := false
 	if nil == self.fh {
 		fh, err := os.Create(self.options.GetFilename())
-		if err != nil {
-			log.Fatal(err)
+		if nil != err {
+			return err
 		}
 		self.fh = fh
-		self.fh.Write([]byte("["))
-		first = true
+		prefix = json_start_prefix
 	}
 
-	b, err := json.Marshal(row)
-	if err != nil {
-		log.Fatal(err)
+	data, err := json.Marshal(row)
+	if nil != err {
+		return err
 	}
 
-	if first {
-		self.fh.Write([]byte("\n\t"))
-		self.fh.Write(b)
-	} else {
-
-		self.fh.Write([]byte(",\n\t"))
-		self.fh.Write(b)
-	}
-
+	_, err = self.fh.Write(append([]byte(prefix), data...))
+	return err
 }
 
 func (self *JsonWriter) Close() {
