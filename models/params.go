@@ -8,4 +8,5 @@ type Params struct {
 	OutputFile   string     `json:"output_file"`
 	Url          string     `json:"url"`
 	Method       string     `json:"method"`
+	Filename     string     `json:"filename"`
 }

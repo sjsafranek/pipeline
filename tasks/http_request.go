@@ -4,6 +4,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"context"
 
 	"pipeline/models"
 )
@@ -12,7 +13,7 @@ type HttpRequestTask struct {
 	Params *models.Params `json:"params"`
 }
 
-func (self *HttpRequestTask) Do() error {
+func (self *HttpRequestTask) Do(ctx context.Context) error {
 	// Create the file
 	out, err := os.Create(self.Params.OutputFile)
 	if err != nil {

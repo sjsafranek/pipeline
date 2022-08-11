@@ -8,6 +8,7 @@ type Options struct {
 	Header    []string `json:"header"`
 	Filter    *Filter  `json:"filter"`
 	Options   *Options `json:"options`
+	Columns   []Column `json:"columns"`
 }
 
 func (self *Options) GetFilename() string {
@@ -33,4 +34,8 @@ func (self *Options) GetFilter() *Filter {
 		return self.Filter
 	}
 	return &Filter{}
+}
+
+func (self *Options) GetColumns() []Column {
+	return self.Columns
 }

@@ -32,7 +32,29 @@
 								]
 							}
 						}
-					}
+					},
+					{
+						"type": "RemoveColumnsTransformer",
+						"options": {
+							"columns": [
+								{
+									"column_id": "SUB GROUP"
+								}
+							]
+						}
+					},
+					{
+						"type": "AddColumnsTransformer",
+						"options": {
+							"columns": [
+								{
+									"column_id": "test",
+									"type": "boolean",
+									"default": true
+								}
+							]
+						}
+					}					
 				],
 				"writers": [
 					{
@@ -58,6 +80,12 @@
 			"params": {
 				"timeout": 5000
 			}
-		}		
+		},
+		{
+			"method": "delete_file",
+			"params": {
+				"filename": "examples/generic-food.csv"
+			}
+		}
 	]
 }

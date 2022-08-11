@@ -1,8 +1,11 @@
 package main
 
 import (
+	"context"
 	"flag"
 	"log"
+
+	"github.com/google/uuid"
 )
 
 var (
@@ -20,7 +23,11 @@ func main() {
 	if nil != err {
 		log.Fatal(err)
 	}
-	err = pipeline.Do()
+
+	ctx := context.Background()
+	ctx = context.WithValue(ctx, "id", uuid.New().String())
+
+	err = pipeline.Do(ctx)
 	if nil != err {
 		log.Fatal(err)
 	}

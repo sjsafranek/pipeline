@@ -1,131 +1,131 @@
-SUB GROUP,FOOD NAME,SCIENTIFIC NAME,GROUP
-Tropical fruits,Kiwi,Actinidia chinensis,Fruits
-Tropical fruits,Pineapple,Ananas comosus,Fruits
-Tropical fruits,Custard apple,Annona reticulata,Fruits
-Tropical fruits,Star fruit,Averrhoa carambola,Fruits
-Tropical fruits,Papaya,Carica papaya,Fruits
-Citrus,Lime,Citrus aurantiifolia,Fruits
-Citrus,Lemon,Citrus limon,Fruits
-Citrus,Pummelo,Citrus maxima,Fruits
-Citrus,"Mandarin orange (Clementine, Tangerine)",Citrus reticulata,Fruits
-Citrus,Sweet orange,Citrus sinensis,Fruits
-Pomes,Quince,Cydonia oblonga,Fruits
-Tropical fruits,Japanese persimmon,Diospyros kaki,Fruits
-Berries,Black crowberry,Empetrum nigrum,Fruits
-Tropical fruits,Loquat,Eriobotrya japonica,Fruits
-Tropical fruits,Wax apple,Eugenia,Fruits
-Other fruits,Fig,Ficus carica,Fruits
-Berries,Strawberry,Fragaria X ananassa,Fruits
-Berries,Black huckleberry,Gaylussacia baccata,Fruits
-Berries,Sea-buckthornberry,Hippophae rhamnoides,Fruits
-Tropical fruits,Lichee,Litchi chinensis,Fruits
-Pomes,Apple,Malus pumila,Fruits
-Tropical fruits,Mango,Mangifera indica,Fruits
-Pomes,Medlar,Mespilus germanica,Fruits
-Berries,Mulberry,Morus,Fruits
-Berries,Black mulberry,Morus nigra,Fruits
-Tropical fruits,Passion fruit,Passiflora edulis,Fruits
-Other fruits,Date,Phoenix dactylifera,Fruits
-Berries,Black chokeberry,Photinia melanocarpa,Fruits
-Drupes,"Prunus (Cherry, Plum)",Prunus,Fruits
-Drupes,Apricot,Prunus armeniaca,Fruits
-Drupes,Sweet cherry,Prunus avium,Fruits
-Drupes,Sour cherry,Prunus cerasus,Fruits
-Drupes,European plum,Prunus domestica,Fruits
-Drupes,Peach,Prunus persica,Fruits
-Tropical fruits,Guava,Psidium guajava,Fruits
-Tropical fruits,Pomegranate,Punica granatum,Fruits
-Pomes,Pear,Pyrus communis,Fruits
-Berries,Blackcurrant,Ribes nigrum,Fruits
-Berries,Redcurrant,Ribes rubrum,Fruits
-Berries,Gooseberry,Ribes uva-crispa,Fruits
-Berries,"Rubus (Blackberry, Raspberry)",Rubus,Fruits
-Berries,Cloudberry,Rubus chamaemorus,Fruits
-Berries,Red raspberry,Rubus idaeus,Fruits
-Berries,Black raspberry,Rubus occidentalis,Fruits
-Berries,Black elderberry,Sambucus nigra,Fruits
-Berries,Rowanberry,Sorbus aucuparia,Fruits
-Tropical fruits,Tamarind,Tamarindus indica,Fruits
-Berries,"Vaccinium (Blueberry, Cranberry, Huckleberry)",Vaccinium,Fruits
-Berries,Lowbush blueberry,Vaccinium angustifolium,Fruits
-Berries,Sparkleberry,Vaccinium arboreum,Fruits
-Berries,Highbush blueberry,Vaccinium corymbosum,Fruits
-Berries,American cranberry,Vaccinium macrocarpon,Fruits
-Berries,Bilberry,Vaccinium myrtillus,Fruits
-Berries,Lingonberry,Vaccinium vitis-idaea,Fruits
-Berries,Muscadine grape,Vitis rotundifolia,Fruits
-Berries,Common grape,Vitis vinifera,Fruits
-Berries,Arctic blackberry,Rubus arcticus,Fruits
-Tropical fruits,Banana,Musa acuminata,Fruits
-Berries,Bayberry,Myrica,Fruits
-Berries,Elliott's blueberry,Vaccinium elliottii,Fruits
-Berries,Canada blueberry,Vaccinium myrtilloides,Fruits
-Berries,Bog bilberry,Vaccinium uliginosum,Fruits
-Berries,Buffalo currant,Ribes aureum var. villosum,Fruits
-Berries,European cranberry,Vaccinium oxycoccos,Fruits
-Berries,Deerberry,Vaccinium stamineum,Fruits
-Berries,Cascade huckleberry,Vaccinium deliciosum,Fruits
-Berries,Oval-leaf huckleberry,Vaccinium ovalifolium,Fruits
-Berries,Evergreen huckleberry,Vaccinium ovatum,Fruits
-Berries,Red huckleberry,Vaccinium parvifolium,Fruits
-Tropical fruits,Longan,Dimocarpus longan,Fruits
-Berries,Summer grape,Vitis aestivalis,Fruits
-Berries,Fox grape,Vitis labrusca,Fruits
-Drupes,Nectarine,Prunus persica var. nucipersica,Fruits
-Drupes,Peach (var.),Prunus persica var. persica,Fruits
-Tropical fruits,Rambutan,Nephelium lappaceum,Fruits
-Berries,Half-highbush blueberry,Vaccinium angustifolium X Vaccinium corymbosum,Fruits
-Citrus,Grapefruit/Pummelo hybrid,Citrus paradisi X Citrus maxima,Fruits
-Citrus,Grapefruit,Citrus X paradisi,Fruits
-Berries,Jostaberry,Ribes × nidigrolaria,Fruits
-Berries,Sweet rowanberry,Grataegosorbus mitschurinii,Fruits
-Berries,Skunk currant,Ribes glandulosum,Fruits
-Tropical fruits,Abiyuch,Crateva religiosa,Fruits
-Tropical fruits,Acerola,Malpighia emarginata,Fruits
-Pomes,Asian pear,Pyrus pyrifolia,Fruits
-Tropical fruits,Breadfruit,Artocarpus altilis,Fruits
-Tropical fruits,Natal plum,Carissa macrocarpa,Fruits
-Tropical fruits,Cherimoya,Annona cherimola,Fruits
-Tropical fruits,Coconut,Cocos nucifera,Fruits
-Pomes,Malus (Crab apple),Malus,Fruits
-Berries,Squashberry,Viburnum edule,Fruits
-Tropical fruits,Durian,Durio zibethinus,Fruits
-Berries,Elderberry,Sambucus,Fruits
-Berries,Grape,Vitis,Fruits
-Berries,Alaska blueberry,Vaccinium alaskaense,Fruits
-Tropical fruits,Jackfruit,Artocarpus heterophyllus,Fruits
-Tropical fruits,Java plum,Syzygium cumini,Fruits
-Other fruits,Jujube,Ziziphus zizyphus,Fruits
-Tropical fruits,Kumquat,Fortunella,Fruits
-Berries,Loganberry,Rubus loganobaccus,Fruits
-Tropical fruits,Mammee apple,Mammea americana,Fruits
-Tropical fruits,Purple mangosteen,Garcinia mangostana,Fruits
-Berries,Ohelo berry,Vaccinium reticulatum,Fruits
-Tropical fruits,Common persimmon,Diospyros virginiana,Fruits
-Tropical fruits,Pitanga,Eugenia uniflora,Fruits
-Tropical fruits,Plains prickly pear,Opuntia macrorhiza,Fruits
-Tropical fruits,French plantain,Musa X paradisiaca,Fruits
-Tropical fruits,Prickly pear,Opuntia,Fruits
-Tropical fruits,Malabar plum,Syzygium jambos,Fruits
-Berries,Salmonberry,Rubus spectabilis,Fruits
-Tropical fruits,Sapodilla,Manilkara zapota,Fruits
-Tropical fruits,Mamey sapote,Pouteria sapota,Fruits
-Tropical fruits,Soursop,Annona muricata,Fruits
-Berries,Strawberry guava,Psidium cattleianum,Fruits
-Tropical fruits,Sugar apple,Annona squamosa,Fruits
-Berries,Boysenberry,Rubus ursinus X idaeus,Fruits
-Citrus,Persian lime,Citrus latifolia,Fruits
-Tropical fruits,Feijoa,Feijoa sellowiana,Fruits
-Drupes,Common chokecherry,Prunus virginiana,Fruits
-Tropical fruits,Persimmon,Diospyros,Fruits
-Fruit products,Fruit preserve,NULL,Fruits
-Fruit products,Other fruit product,NULL,Fruits
-Fruit products,Fruit salad,NULL,Fruits
-Tropical fruits,Nance,Byrsonima crassifolia,Fruits
-Tropical fruits,Naranjilla,Solanum quitoense,Fruits
-Berries,Chinese bayberry,Myrica rubra,Fruits
-Pomes,Pomes,NULL,Fruits
-Citrus,Citrus,NULL,Fruits
-Fruits,Fruits,NULL,Fruits
-Berries,Saskatoon berry,Amelanchier alnifolia,Fruits
-Berries,Nanking cherry,Prunus tomentosa,Fruits
+SCIENTIFIC NAME,GROUP,test,FOOD NAME
+Actinidia chinensis,Fruits,true,Kiwi
+Ananas comosus,Fruits,true,Pineapple
+Annona reticulata,Fruits,true,Custard apple
+Averrhoa carambola,Fruits,true,Star fruit
+Carica papaya,Fruits,true,Papaya
+Citrus aurantiifolia,Fruits,true,Lime
+Citrus limon,Fruits,true,Lemon
+Citrus maxima,Fruits,true,Pummelo
+Citrus reticulata,Fruits,true,"Mandarin orange (Clementine, Tangerine)"
+Citrus sinensis,Fruits,true,Sweet orange
+Cydonia oblonga,Fruits,true,Quince
+Diospyros kaki,Fruits,true,Japanese persimmon
+Empetrum nigrum,Fruits,true,Black crowberry
+Eriobotrya japonica,Fruits,true,Loquat
+Eugenia,Fruits,true,Wax apple
+Ficus carica,Fruits,true,Fig
+Fragaria X ananassa,Fruits,true,Strawberry
+Gaylussacia baccata,Fruits,true,Black huckleberry
+Hippophae rhamnoides,Fruits,true,Sea-buckthornberry
+Litchi chinensis,Fruits,true,Lichee
+Malus pumila,Fruits,true,Apple
+Mangifera indica,Fruits,true,Mango
+Mespilus germanica,Fruits,true,Medlar
+Morus,Fruits,true,Mulberry
+Morus nigra,Fruits,true,Black mulberry
+Passiflora edulis,Fruits,true,Passion fruit
+Phoenix dactylifera,Fruits,true,Date
+Photinia melanocarpa,Fruits,true,Black chokeberry
+Prunus,Fruits,true,"Prunus (Cherry, Plum)"
+Prunus armeniaca,Fruits,true,Apricot
+Prunus avium,Fruits,true,Sweet cherry
+Prunus cerasus,Fruits,true,Sour cherry
+Prunus domestica,Fruits,true,European plum
+Prunus persica,Fruits,true,Peach
+Psidium guajava,Fruits,true,Guava
+Punica granatum,Fruits,true,Pomegranate
+Pyrus communis,Fruits,true,Pear
+Ribes nigrum,Fruits,true,Blackcurrant
+Ribes rubrum,Fruits,true,Redcurrant
+Ribes uva-crispa,Fruits,true,Gooseberry
+Rubus,Fruits,true,"Rubus (Blackberry, Raspberry)"
+Rubus chamaemorus,Fruits,true,Cloudberry
+Rubus idaeus,Fruits,true,Red raspberry
+Rubus occidentalis,Fruits,true,Black raspberry
+Sambucus nigra,Fruits,true,Black elderberry
+Sorbus aucuparia,Fruits,true,Rowanberry
+Tamarindus indica,Fruits,true,Tamarind
+Vaccinium,Fruits,true,"Vaccinium (Blueberry, Cranberry, Huckleberry)"
+Vaccinium angustifolium,Fruits,true,Lowbush blueberry
+Vaccinium arboreum,Fruits,true,Sparkleberry
+Vaccinium corymbosum,Fruits,true,Highbush blueberry
+Vaccinium macrocarpon,Fruits,true,American cranberry
+Vaccinium myrtillus,Fruits,true,Bilberry
+Vaccinium vitis-idaea,Fruits,true,Lingonberry
+Vitis rotundifolia,Fruits,true,Muscadine grape
+Vitis vinifera,Fruits,true,Common grape
+Rubus arcticus,Fruits,true,Arctic blackberry
+Musa acuminata,Fruits,true,Banana
+Myrica,Fruits,true,Bayberry
+Vaccinium elliottii,Fruits,true,Elliott's blueberry
+Vaccinium myrtilloides,Fruits,true,Canada blueberry
+Vaccinium uliginosum,Fruits,true,Bog bilberry
+Ribes aureum var. villosum,Fruits,true,Buffalo currant
+Vaccinium oxycoccos,Fruits,true,European cranberry
+Vaccinium stamineum,Fruits,true,Deerberry
+Vaccinium deliciosum,Fruits,true,Cascade huckleberry
+Vaccinium ovalifolium,Fruits,true,Oval-leaf huckleberry
+Vaccinium ovatum,Fruits,true,Evergreen huckleberry
+Vaccinium parvifolium,Fruits,true,Red huckleberry
+Dimocarpus longan,Fruits,true,Longan
+Vitis aestivalis,Fruits,true,Summer grape
+Vitis labrusca,Fruits,true,Fox grape
+Prunus persica var. nucipersica,Fruits,true,Nectarine
+Prunus persica var. persica,Fruits,true,Peach (var.)
+Nephelium lappaceum,Fruits,true,Rambutan
+Vaccinium angustifolium X Vaccinium corymbosum,Fruits,true,Half-highbush blueberry
+Citrus paradisi X Citrus maxima,Fruits,true,Grapefruit/Pummelo hybrid
+Citrus X paradisi,Fruits,true,Grapefruit
+Ribes × nidigrolaria,Fruits,true,Jostaberry
+Grataegosorbus mitschurinii,Fruits,true,Sweet rowanberry
+Ribes glandulosum,Fruits,true,Skunk currant
+Crateva religiosa,Fruits,true,Abiyuch
+Malpighia emarginata,Fruits,true,Acerola
+Pyrus pyrifolia,Fruits,true,Asian pear
+Artocarpus altilis,Fruits,true,Breadfruit
+Carissa macrocarpa,Fruits,true,Natal plum
+Annona cherimola,Fruits,true,Cherimoya
+Cocos nucifera,Fruits,true,Coconut
+Malus,Fruits,true,Malus (Crab apple)
+Viburnum edule,Fruits,true,Squashberry
+Durio zibethinus,Fruits,true,Durian
+Sambucus,Fruits,true,Elderberry
+Vitis,Fruits,true,Grape
+Vaccinium alaskaense,Fruits,true,Alaska blueberry
+Artocarpus heterophyllus,Fruits,true,Jackfruit
+Syzygium cumini,Fruits,true,Java plum
+Ziziphus zizyphus,Fruits,true,Jujube
+Fortunella,Fruits,true,Kumquat
+Rubus loganobaccus,Fruits,true,Loganberry
+Mammea americana,Fruits,true,Mammee apple
+Garcinia mangostana,Fruits,true,Purple mangosteen
+Vaccinium reticulatum,Fruits,true,Ohelo berry
+Diospyros virginiana,Fruits,true,Common persimmon
+Eugenia uniflora,Fruits,true,Pitanga
+Opuntia macrorhiza,Fruits,true,Plains prickly pear
+Musa X paradisiaca,Fruits,true,French plantain
+Opuntia,Fruits,true,Prickly pear
+Syzygium jambos,Fruits,true,Malabar plum
+Rubus spectabilis,Fruits,true,Salmonberry
+Manilkara zapota,Fruits,true,Sapodilla
+Pouteria sapota,Fruits,true,Mamey sapote
+Annona muricata,Fruits,true,Soursop
+Psidium cattleianum,Fruits,true,Strawberry guava
+Annona squamosa,Fruits,true,Sugar apple
+Rubus ursinus X idaeus,Fruits,true,Boysenberry
+Citrus latifolia,Fruits,true,Persian lime
+Feijoa sellowiana,Fruits,true,Feijoa
+Prunus virginiana,Fruits,true,Common chokecherry
+Diospyros,Fruits,true,Persimmon
+NULL,Fruits,true,Fruit preserve
+NULL,Fruits,true,Other fruit product
+NULL,Fruits,true,Fruit salad
+Byrsonima crassifolia,Fruits,true,Nance
+Solanum quitoense,Fruits,true,Naranjilla
+Myrica rubra,Fruits,true,Chinese bayberry
+NULL,Fruits,true,Pomes
+NULL,Fruits,true,Citrus
+NULL,Fruits,true,Fruits
+Amelanchier alnifolia,Fruits,true,Saskatoon berry
+Prunus tomentosa,Fruits,true,Nanking cherry

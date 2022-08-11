@@ -1,6 +1,8 @@
 package tasks
 
 import (
+	"context"
+
 	"pipeline/models"
 	"pipeline/readers"
 	"pipeline/transformers"
@@ -61,7 +63,7 @@ func (self *EtlTask) newWriter() (writers.IWriter, error) {
 	return &writer, nil
 }
 
-func (self *EtlTask) Do() error {
+func (self *EtlTask) Do(ctx context.Context) error {
 	reader, err := self.newReader()
 	if nil != err {
 		return err
