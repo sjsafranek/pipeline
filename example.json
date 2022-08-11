@@ -1,0 +1,63 @@
+{
+	"tasks": [
+		{
+			"method": "http_request",
+			"params": {
+				"method": "GET",
+				"_url": "https://data.world/alexandra/generic-food-database/workspace/file?filename=generic-food.csv",
+				"url": "https://query.data.world/s/dlntl2d63fbz5iy74qsmf4utdzpdnb",
+				"output_file": "examples/generic-food.csv"
+			}
+		},
+		{
+			"method": "etl",
+			"params": {
+				"readers": [
+					{
+						"type": "CsvReader",
+						"options": {
+							"filename": "examples/generic-food.csv"
+						}
+					}
+				],
+				"transformers": [
+					{
+						"type": "FilterTransformer",
+						"options": {
+							"filter": {
+								"test": "in",
+								"column_id": "GROUP",
+								"values": [
+									"Fruits"
+								]
+							}
+						}
+					}
+				],
+				"writers": [
+					{
+						"type": "StdOutWriter"
+					},
+					{
+						"type": "CsvWriter",
+						"options": {
+							"filename": "examples/fruits.csv"
+						}
+					},
+					{
+						"type": "JsonWriter",
+						"options": {
+							"filename": "examples/fruits.json"
+						}
+					}
+				]
+			}
+		},
+		{
+			"method": "sleep",
+			"params": {
+				"timeout": 5000
+			}
+		}		
+	]
+}
