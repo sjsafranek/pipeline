@@ -22,6 +22,7 @@ func New(name string, reader readers.IReader, options *models.Options) (readers.
 	case "RemoveColumnsTransformer":
 		return &RemoveColumnsTransformer{reader: reader, options: options}, nil
 	case "AlterColumnsTransformer":
+		return &AlterColumnsTransformer{reader: reader, options: options}, nil
 	case "DataTypeTransformer":
 	default:
 		return nil, fmt.Errorf("Unsuppored reader: %v", name)

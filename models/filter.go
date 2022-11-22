@@ -68,6 +68,14 @@ func (self *Filter) Check(row map[string]interface{}) bool {
 				}
 			}
 			return false
+		case "xor":
+			c := 0
+			for _, filter := range self.Conditions {
+				if filter.Check(row) {
+					c++
+				}
+			}
+			return 1 == c
 		case "not":
 			// todo
 		default:

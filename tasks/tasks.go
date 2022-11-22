@@ -25,6 +25,10 @@ func New(ctx context.Context, method string, params *models.Params) (ITask, erro
 		}}, nil
 	case "http_request":
 		return &HttpRequestTask{Params: params}, nil
+	case "create_directory":
+		return &CallbackTask{Callback: func(ctx context.Context) error {
+			return os.MkdirAll(params.Directory, os.ModePerm)
+		}}, nil
 	case "delete_file":
 		return &CallbackTask{Callback: func(ctx context.Context) error {
 			return os.Remove(params.Filename)

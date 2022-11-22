@@ -1,132 +1,113 @@
-[
-	{"FOOD NAME":"Kiwi","GROUP":"Fruits","SCIENTIFIC NAME":"Actinidia chinensis","test":true},
-	{"FOOD NAME":"Pineapple","GROUP":"Fruits","SCIENTIFIC NAME":"Ananas comosus","test":true},
-	{"FOOD NAME":"Custard apple","GROUP":"Fruits","SCIENTIFIC NAME":"Annona reticulata","test":true},
-	{"FOOD NAME":"Star fruit","GROUP":"Fruits","SCIENTIFIC NAME":"Averrhoa carambola","test":true},
-	{"FOOD NAME":"Papaya","GROUP":"Fruits","SCIENTIFIC NAME":"Carica papaya","test":true},
-	{"FOOD NAME":"Lime","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus aurantiifolia","test":true},
-	{"FOOD NAME":"Lemon","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus limon","test":true},
-	{"FOOD NAME":"Pummelo","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus maxima","test":true},
-	{"FOOD NAME":"Mandarin orange (Clementine, Tangerine)","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus reticulata","test":true},
-	{"FOOD NAME":"Sweet orange","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus sinensis","test":true},
-	{"FOOD NAME":"Quince","GROUP":"Fruits","SCIENTIFIC NAME":"Cydonia oblonga","test":true},
-	{"FOOD NAME":"Japanese persimmon","GROUP":"Fruits","SCIENTIFIC NAME":"Diospyros kaki","test":true},
-	{"FOOD NAME":"Black crowberry","GROUP":"Fruits","SCIENTIFIC NAME":"Empetrum nigrum","test":true},
-	{"FOOD NAME":"Loquat","GROUP":"Fruits","SCIENTIFIC NAME":"Eriobotrya japonica","test":true},
-	{"FOOD NAME":"Wax apple","GROUP":"Fruits","SCIENTIFIC NAME":"Eugenia","test":true},
-	{"FOOD NAME":"Fig","GROUP":"Fruits","SCIENTIFIC NAME":"Ficus carica","test":true},
-	{"FOOD NAME":"Strawberry","GROUP":"Fruits","SCIENTIFIC NAME":"Fragaria X ananassa","test":true},
-	{"FOOD NAME":"Black huckleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Gaylussacia baccata","test":true},
-	{"FOOD NAME":"Sea-buckthornberry","GROUP":"Fruits","SCIENTIFIC NAME":"Hippophae rhamnoides","test":true},
-	{"FOOD NAME":"Lichee","GROUP":"Fruits","SCIENTIFIC NAME":"Litchi chinensis","test":true},
-	{"FOOD NAME":"Apple","GROUP":"Fruits","SCIENTIFIC NAME":"Malus pumila","test":true},
-	{"FOOD NAME":"Mango","GROUP":"Fruits","SCIENTIFIC NAME":"Mangifera indica","test":true},
-	{"FOOD NAME":"Medlar","GROUP":"Fruits","SCIENTIFIC NAME":"Mespilus germanica","test":true},
-	{"FOOD NAME":"Mulberry","GROUP":"Fruits","SCIENTIFIC NAME":"Morus","test":true},
-	{"FOOD NAME":"Black mulberry","GROUP":"Fruits","SCIENTIFIC NAME":"Morus nigra","test":true},
-	{"FOOD NAME":"Passion fruit","GROUP":"Fruits","SCIENTIFIC NAME":"Passiflora edulis","test":true},
-	{"FOOD NAME":"Date","GROUP":"Fruits","SCIENTIFIC NAME":"Phoenix dactylifera","test":true},
-	{"FOOD NAME":"Black chokeberry","GROUP":"Fruits","SCIENTIFIC NAME":"Photinia melanocarpa","test":true},
-	{"FOOD NAME":"Prunus (Cherry, Plum)","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus","test":true},
-	{"FOOD NAME":"Apricot","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus armeniaca","test":true},
-	{"FOOD NAME":"Sweet cherry","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus avium","test":true},
-	{"FOOD NAME":"Sour cherry","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus cerasus","test":true},
-	{"FOOD NAME":"European plum","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus domestica","test":true},
-	{"FOOD NAME":"Peach","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus persica","test":true},
-	{"FOOD NAME":"Guava","GROUP":"Fruits","SCIENTIFIC NAME":"Psidium guajava","test":true},
-	{"FOOD NAME":"Pomegranate","GROUP":"Fruits","SCIENTIFIC NAME":"Punica granatum","test":true},
-	{"FOOD NAME":"Pear","GROUP":"Fruits","SCIENTIFIC NAME":"Pyrus communis","test":true},
-	{"FOOD NAME":"Blackcurrant","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes nigrum","test":true},
-	{"FOOD NAME":"Redcurrant","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes rubrum","test":true},
-	{"FOOD NAME":"Gooseberry","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes uva-crispa","test":true},
-	{"FOOD NAME":"Rubus (Blackberry, Raspberry)","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus","test":true},
-	{"FOOD NAME":"Cloudberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus chamaemorus","test":true},
-	{"FOOD NAME":"Red raspberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus idaeus","test":true},
-	{"FOOD NAME":"Black raspberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus occidentalis","test":true},
-	{"FOOD NAME":"Black elderberry","GROUP":"Fruits","SCIENTIFIC NAME":"Sambucus nigra","test":true},
-	{"FOOD NAME":"Rowanberry","GROUP":"Fruits","SCIENTIFIC NAME":"Sorbus aucuparia","test":true},
-	{"FOOD NAME":"Tamarind","GROUP":"Fruits","SCIENTIFIC NAME":"Tamarindus indica","test":true},
-	{"FOOD NAME":"Vaccinium (Blueberry, Cranberry, Huckleberry)","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium","test":true},
-	{"FOOD NAME":"Lowbush blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium angustifolium","test":true},
-	{"FOOD NAME":"Sparkleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium arboreum","test":true},
-	{"FOOD NAME":"Highbush blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium corymbosum","test":true},
-	{"FOOD NAME":"American cranberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium macrocarpon","test":true},
-	{"FOOD NAME":"Bilberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium myrtillus","test":true},
-	{"FOOD NAME":"Lingonberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium vitis-idaea","test":true},
-	{"FOOD NAME":"Muscadine grape","GROUP":"Fruits","SCIENTIFIC NAME":"Vitis rotundifolia","test":true},
-	{"FOOD NAME":"Common grape","GROUP":"Fruits","SCIENTIFIC NAME":"Vitis vinifera","test":true},
-	{"FOOD NAME":"Arctic blackberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus arcticus","test":true},
-	{"FOOD NAME":"Banana","GROUP":"Fruits","SCIENTIFIC NAME":"Musa acuminata","test":true},
-	{"FOOD NAME":"Bayberry","GROUP":"Fruits","SCIENTIFIC NAME":"Myrica","test":true},
-	{"FOOD NAME":"Elliott's blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium elliottii","test":true},
-	{"FOOD NAME":"Canada blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium myrtilloides","test":true},
-	{"FOOD NAME":"Bog bilberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium uliginosum","test":true},
-	{"FOOD NAME":"Buffalo currant","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes aureum var. villosum","test":true},
-	{"FOOD NAME":"European cranberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium oxycoccos","test":true},
-	{"FOOD NAME":"Deerberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium stamineum","test":true},
-	{"FOOD NAME":"Cascade huckleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium deliciosum","test":true},
-	{"FOOD NAME":"Oval-leaf huckleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium ovalifolium","test":true},
-	{"FOOD NAME":"Evergreen huckleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium ovatum","test":true},
-	{"FOOD NAME":"Red huckleberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium parvifolium","test":true},
-	{"FOOD NAME":"Longan","GROUP":"Fruits","SCIENTIFIC NAME":"Dimocarpus longan","test":true},
-	{"FOOD NAME":"Summer grape","GROUP":"Fruits","SCIENTIFIC NAME":"Vitis aestivalis","test":true},
-	{"FOOD NAME":"Fox grape","GROUP":"Fruits","SCIENTIFIC NAME":"Vitis labrusca","test":true},
-	{"FOOD NAME":"Nectarine","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus persica var. nucipersica","test":true},
-	{"FOOD NAME":"Peach (var.)","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus persica var. persica","test":true},
-	{"FOOD NAME":"Rambutan","GROUP":"Fruits","SCIENTIFIC NAME":"Nephelium lappaceum","test":true},
-	{"FOOD NAME":"Half-highbush blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium angustifolium X Vaccinium corymbosum","test":true},
-	{"FOOD NAME":"Grapefruit/Pummelo hybrid","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus paradisi X Citrus maxima","test":true},
-	{"FOOD NAME":"Grapefruit","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus X paradisi","test":true},
-	{"FOOD NAME":"Jostaberry","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes × nidigrolaria","test":true},
-	{"FOOD NAME":"Sweet rowanberry","GROUP":"Fruits","SCIENTIFIC NAME":"Grataegosorbus mitschurinii","test":true},
-	{"FOOD NAME":"Skunk currant","GROUP":"Fruits","SCIENTIFIC NAME":"Ribes glandulosum","test":true},
-	{"FOOD NAME":"Abiyuch","GROUP":"Fruits","SCIENTIFIC NAME":"Crateva religiosa","test":true},
-	{"FOOD NAME":"Acerola","GROUP":"Fruits","SCIENTIFIC NAME":"Malpighia emarginata","test":true},
-	{"FOOD NAME":"Asian pear","GROUP":"Fruits","SCIENTIFIC NAME":"Pyrus pyrifolia","test":true},
-	{"FOOD NAME":"Breadfruit","GROUP":"Fruits","SCIENTIFIC NAME":"Artocarpus altilis","test":true},
-	{"FOOD NAME":"Natal plum","GROUP":"Fruits","SCIENTIFIC NAME":"Carissa macrocarpa","test":true},
-	{"FOOD NAME":"Cherimoya","GROUP":"Fruits","SCIENTIFIC NAME":"Annona cherimola","test":true},
-	{"FOOD NAME":"Coconut","GROUP":"Fruits","SCIENTIFIC NAME":"Cocos nucifera","test":true},
-	{"FOOD NAME":"Malus (Crab apple)","GROUP":"Fruits","SCIENTIFIC NAME":"Malus","test":true},
-	{"FOOD NAME":"Squashberry","GROUP":"Fruits","SCIENTIFIC NAME":"Viburnum edule","test":true},
-	{"FOOD NAME":"Durian","GROUP":"Fruits","SCIENTIFIC NAME":"Durio zibethinus","test":true},
-	{"FOOD NAME":"Elderberry","GROUP":"Fruits","SCIENTIFIC NAME":"Sambucus","test":true},
-	{"FOOD NAME":"Grape","GROUP":"Fruits","SCIENTIFIC NAME":"Vitis","test":true},
-	{"FOOD NAME":"Alaska blueberry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium alaskaense","test":true},
-	{"FOOD NAME":"Jackfruit","GROUP":"Fruits","SCIENTIFIC NAME":"Artocarpus heterophyllus","test":true},
-	{"FOOD NAME":"Java plum","GROUP":"Fruits","SCIENTIFIC NAME":"Syzygium cumini","test":true},
-	{"FOOD NAME":"Jujube","GROUP":"Fruits","SCIENTIFIC NAME":"Ziziphus zizyphus","test":true},
-	{"FOOD NAME":"Kumquat","GROUP":"Fruits","SCIENTIFIC NAME":"Fortunella","test":true},
-	{"FOOD NAME":"Loganberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus loganobaccus","test":true},
-	{"FOOD NAME":"Mammee apple","GROUP":"Fruits","SCIENTIFIC NAME":"Mammea americana","test":true},
-	{"FOOD NAME":"Purple mangosteen","GROUP":"Fruits","SCIENTIFIC NAME":"Garcinia mangostana","test":true},
-	{"FOOD NAME":"Ohelo berry","GROUP":"Fruits","SCIENTIFIC NAME":"Vaccinium reticulatum","test":true},
-	{"FOOD NAME":"Common persimmon","GROUP":"Fruits","SCIENTIFIC NAME":"Diospyros virginiana","test":true},
-	{"FOOD NAME":"Pitanga","GROUP":"Fruits","SCIENTIFIC NAME":"Eugenia uniflora","test":true},
-	{"FOOD NAME":"Plains prickly pear","GROUP":"Fruits","SCIENTIFIC NAME":"Opuntia macrorhiza","test":true},
-	{"FOOD NAME":"French plantain","GROUP":"Fruits","SCIENTIFIC NAME":"Musa X paradisiaca","test":true},
-	{"FOOD NAME":"Prickly pear","GROUP":"Fruits","SCIENTIFIC NAME":"Opuntia","test":true},
-	{"FOOD NAME":"Malabar plum","GROUP":"Fruits","SCIENTIFIC NAME":"Syzygium jambos","test":true},
-	{"FOOD NAME":"Salmonberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus spectabilis","test":true},
-	{"FOOD NAME":"Sapodilla","GROUP":"Fruits","SCIENTIFIC NAME":"Manilkara zapota","test":true},
-	{"FOOD NAME":"Mamey sapote","GROUP":"Fruits","SCIENTIFIC NAME":"Pouteria sapota","test":true},
-	{"FOOD NAME":"Soursop","GROUP":"Fruits","SCIENTIFIC NAME":"Annona muricata","test":true},
-	{"FOOD NAME":"Strawberry guava","GROUP":"Fruits","SCIENTIFIC NAME":"Psidium cattleianum","test":true},
-	{"FOOD NAME":"Sugar apple","GROUP":"Fruits","SCIENTIFIC NAME":"Annona squamosa","test":true},
-	{"FOOD NAME":"Boysenberry","GROUP":"Fruits","SCIENTIFIC NAME":"Rubus ursinus X idaeus","test":true},
-	{"FOOD NAME":"Persian lime","GROUP":"Fruits","SCIENTIFIC NAME":"Citrus latifolia","test":true},
-	{"FOOD NAME":"Feijoa","GROUP":"Fruits","SCIENTIFIC NAME":"Feijoa sellowiana","test":true},
-	{"FOOD NAME":"Common chokecherry","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus virginiana","test":true},
-	{"FOOD NAME":"Persimmon","GROUP":"Fruits","SCIENTIFIC NAME":"Diospyros","test":true},
-	{"FOOD NAME":"Fruit preserve","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Other fruit product","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Fruit salad","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Nance","GROUP":"Fruits","SCIENTIFIC NAME":"Byrsonima crassifolia","test":true},
-	{"FOOD NAME":"Naranjilla","GROUP":"Fruits","SCIENTIFIC NAME":"Solanum quitoense","test":true},
-	{"FOOD NAME":"Chinese bayberry","GROUP":"Fruits","SCIENTIFIC NAME":"Myrica rubra","test":true},
-	{"FOOD NAME":"Pomes","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Citrus","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Fruits","GROUP":"Fruits","SCIENTIFIC NAME":"NULL","test":true},
-	{"FOOD NAME":"Saskatoon berry","GROUP":"Fruits","SCIENTIFIC NAME":"Amelanchier alnifolia","test":true},
-	{"FOOD NAME":"Nanking cherry","GROUP":"Fruits","SCIENTIFIC NAME":"Prunus tomentosa","test":true}
-]
+{
+	"tasks": [
+		{
+			"method": "create_directory",
+			"params": {
+				"directory": "tmp"
+			}
+		},
+		{
+			"method": "http_request",
+			"params": {
+				"method": "GET",
+				"_url": "https://data.world/alexandra/generic-food-database/workspace/file?filename=generic-food.csv",
+				"url": "https://query.data.world/s/dlntl2d63fbz5iy74qsmf4utdzpdnb",
+				"output_file": "tmp/generic-food.csv"
+			}
+		},
+		{
+			"method": "etl",
+			"params": {
+				"readers": [
+					{
+						"type": "CsvReader",
+						"options": {
+							"filename": "tmp/generic-food.csv"
+						}
+					}
+				],
+				"transformers": [
+					{
+						"type": "FilterTransformer",
+						"options": {
+							"filter": {
+								"test": "in",
+								"column_id": "GROUP",
+								"values": [
+									"Fruits"
+								]
+							}
+						}
+					},
+					{
+						"type": "RemoveColumnsTransformer",
+						"options": {
+							"columns": [
+								{
+									"column_id": "SUB GROUP"
+								}
+							]
+						}
+					},
+					{
+						"type": "AddColumnsTransformer",
+						"options": {
+							"columns": [
+								{
+									"column_id": "test",
+									"type": "boolean",
+									"default": true
+								},
+								{
+									"column_id": "id",
+									"type": "integer",
+									"default": 0
+								}
+							]
+						}
+					},
+					{
+						"type": "AlterColumnsTransformer",
+						"options": {
+							"columns": [
+								{
+									"column_id": "id",
+									"type": "float64"
+								}
+							]
+						}
+					}
+				],
+				"writers": [
+					{
+						"type": "StdOutWriter"
+					},
+					{
+						"type": "CsvWriter",
+						"options": {
+							"filename": "tmp/fruits.csv"
+						}
+					},
+					{
+						"type": "JsonWriter",
+						"options": {
+							"filename": "tmp/fruits.json"
+						}
+					}
+				]
+			}
+		},
+		{
+			"method": "sleep",
+			"params": {
+				"timeout": 5000
+			}
+		},
+		{
+			"method": "delete_file",
+			"params": {
+				"filename": "tmp/generic-food.csv"
+			}
+		}
+	]
+}
