@@ -9,6 +9,6 @@ type Params struct {
 	Url          string     `json:"url"`
 	Method       string     `json:"method"`
 	Filename     string     `json:"filename"`
-	Parallelize  bool		`json:"parallelize"`
-	Directory string 	`json:"directory`
+	Parallelize  bool       `json:"parallelize"`
+	Directory    string     `json:"directory`
 }

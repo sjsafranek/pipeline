@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"context"
-	"sync"
 	"errors"
+	"fmt"
+	"sync"
 
 	"pipeline/models"
 	"pipeline/tasks"
@@ -22,7 +22,7 @@ func (self *Pipeline) IsTask() bool {
 }
 
 func (self *Pipeline) Do(ctx context.Context) error {
-	
+
 	if !self.IsTask() {
 
 		if nil != self.Params && self.Params.Parallelize {
@@ -32,7 +32,7 @@ func (self *Pipeline) Do(ctx context.Context) error {
 			errs := make(chan error, len(self.Tasks))
 			for _, task := range self.Tasks {
 				wg.Add(1)
-				go func(){
+				go func() {
 					defer wg.Done()
 					err := task.Do(ctx)
 					if nil != err {
