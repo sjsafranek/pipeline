@@ -101,16 +101,23 @@
 			}
 		},
 		{
-			"method": "sleep",
+			"tasks": [
+				{
+					"method": "sleep",
+					"params": {
+						"timeout": 1000
+					}
+				},
+				{
+					"method": "move_file",
+					"params": {
+						"input_file": "tmp/generic-food.csv",
+						"output_file": "data/generic-food.csv"
+					}
+				}
+			],
 			"params": {
-				"timeout": 5000
-			}
-		},
-		{
-			"method": "move_file",
-			"params": {
-				"input_file": "tmp/generic-food.csv",
-				"output_file": "data/generic-food.csv"
+				"parallelize": true
 			}
 		},
 		{

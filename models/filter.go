@@ -41,6 +41,7 @@ type Filter struct {
 	Max        float64   `json:"max"`
 	Begin      time.Time `json:"begin"`
 	End        time.Time `json:"end"`
+	Filter     *Filter   `json:"filter"`
 }
 
 func (self *Filter) IsTest() bool {
@@ -77,7 +78,10 @@ func (self *Filter) Check(row map[string]interface{}) bool {
 			}
 			return 1 == c
 		case "not":
-			// todo
+			if nil == self.Filter {
+				panic(fmt.Errorf("Misconfigured logical block: 'not' must include 'filter' property"))
+			}
+			return !self.Filter.Check(row)
 		default:
 			panic(fmt.Errorf("Unsuppored logical block: %v", self.Logical))
 		}

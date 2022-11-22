@@ -51,7 +51,7 @@ func (self *Pipeline) Do(ctx context.Context) error {
 				if nil == err1 {
 					err1 = errors.New("Errors occured while processing task list")
 				}
-				err1 = fmt.Errorf("%w; %w", err1, err2)
+				err1 = fmt.Errorf("%v; %v", err1, err2)
 			}
 			return err1
 
