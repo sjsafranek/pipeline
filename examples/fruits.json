@@ -1,9 +1,12 @@
 {
 	"tasks": [
 		{
-			"method": "create_directory",
+			"method": "mkdir",
 			"params": {
-				"directory": "tmp"
+				"directories": [
+					"data",
+					"tmp"
+				]
 			}
 		},
 		{
@@ -104,9 +107,22 @@
 			}
 		},
 		{
-			"method": "delete_file",
+			"method": "move_file",
 			"params": {
-				"filename": "tmp/generic-food.csv"
+				"input_file": "tmp/generic-food.csv",
+				"output_file": "data/generic-food.csv"
+			}
+		},
+		{
+			"method": "remove",
+			"params": {
+				"directories": [
+					"tmp"
+				],
+				"files": [
+					"tmp/fruits.json",
+					"tmp/fruits.csv"
+				]
 			}
 		}
 	]

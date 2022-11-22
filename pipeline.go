@@ -8,6 +8,8 @@ import (
 
 	"pipeline/models"
 	"pipeline/tasks"
+
+	"github.com/sjsafranek/logger"
 )
 
 type Pipeline struct {
@@ -59,6 +61,7 @@ func (self *Pipeline) Do(ctx context.Context) error {
 			for _, task := range self.Tasks {
 				err := task.Do(ctx)
 				if nil != err {
+					logger.Errorf("%s: %s", task.Method, err.Error())
 					return err
 				}
 			}

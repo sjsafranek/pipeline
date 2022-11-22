@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 
 	"github.com/google/uuid"
 )
@@ -32,6 +33,7 @@ func main() {
 	// Get context
 	ctx := context.Background()
 	ctx = context.WithValue(ctx, "id", uuid.New().String())
+	ctx = context.WithValue(ctx, "start_time", time.Now())
 	ctx, cancel := context.WithCancel(ctx)
 
 	// Wait for signal
