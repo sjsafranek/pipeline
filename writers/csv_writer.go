@@ -18,6 +18,10 @@ type CsvWriter struct {
 }
 
 func (self *CsvWriter) WriteLine(row map[string]interface{}) error {
+	// apply filter
+	if nil != self.options && nil != self.options.Filter && !self.options.Filter.Check(row) {
+		return nil
+	}
 
 	if nil == self.fh {
 		fh, err := os.Create(self.options.GetFilename())

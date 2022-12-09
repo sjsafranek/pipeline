@@ -11,6 +11,11 @@ type StdOutWriter struct {
 }
 
 func (self *StdOutWriter) WriteLine(row map[string]interface{}) error {
+	// apply filter
+	if nil != self.options && nil != self.options.Filter && !self.options.Filter.Check(row) {
+		return nil
+	}
+
 	fmt.Printf("%v\n", row)
 	return nil
 }

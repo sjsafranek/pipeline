@@ -83,7 +83,16 @@
 				],
 				"writers": [
 					{
-						"type": "StdOutWriter"
+						"type": "StdOutWriter",
+						"options": {
+							"filter": {
+								"test": "in",
+								"column_id": "FOOD NAME",
+								"values": [
+									"Prickly pear"
+								]
+							}
+						}
 					},
 					{
 						"type": "CsvWriter",

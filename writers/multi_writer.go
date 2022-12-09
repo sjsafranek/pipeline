@@ -14,6 +14,11 @@ func (self *MultiWriter) Add(writer IWriter) {
 }
 
 func (self *MultiWriter) WriteLine(row map[string]interface{}) error {
+	// apply filter
+	if nil != self.options && nil != self.options.Filter && !self.options.Filter.Check(row) {
+		return nil
+	}
+
 	for _, writer := range self.writers {
 		err := writer.WriteLine(row)
 		if nil != err {
