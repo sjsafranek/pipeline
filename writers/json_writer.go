@@ -19,7 +19,7 @@ type JsonWriter struct {
 
 func (self *JsonWriter) WriteLine(row map[string]interface{}) error {
 	// apply filter
-	if nil != self.options &&  nil != self.options.Filter && !self.options.Filter.Check(row) {
+	if nil != self.options && nil != self.options.Filter && !self.options.Filter.Check(row) {
 		return nil
 	}
 
